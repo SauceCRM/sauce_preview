@@ -362,3 +362,36 @@ h1 {
     border-top-left-radius: 0;
 }
 
+.headline-intro, .headline-copy {
+  font-family: 'source sans pro', sans-serif;
+    display: inline;
+}
+.headline-intro {
+    font-weight: 700;
+    color: #111;
+}
+.headline-copy {
+    font-weight: 600;
+    color: #888;
+}
+
+.typography-headline-copy {
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0em;
+}
+@media only screen and (max-width: 735px) {
+  .typography-headline-copy {
+    font-size:24px;
+    line-height: 1.16667;
+    letter-spacing: .009em;
+  }
+}
+@media only screen and (max-width: 1068px) {
+  .typography-headline-copy {
+    font-size:32px;
+    line-height: 1.125;
+    letter-spacing: .004em;
+  }
+}
+
