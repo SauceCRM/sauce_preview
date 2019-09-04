@@ -1,0 +1,364 @@
+---
+---
+//Colours
+[data-bg=grey] {
+    background-color: #1a1a1a;
+    color: #fff
+}
+[data-bg=white] {
+    background-color: #fff;
+    color: #cb1a1c
+}
+[data-bg=red] {
+    background-color: #cb1a1c;
+    color: #fff;
+}
+[data-bg=trees] {
+    background-color: #117167;
+    color: #fff;
+}
+[data-bg=img] {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+main {
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#body-font-size {
+  font-size: 1.6rem;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+.h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {
+    font-family: cera-web,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+.h1, h1 {
+    font-size: 6.4rem;
+    letter-spacing: -0.02em;
+}
+
+@media (min-width: 1024px) {
+    .h1, h1 {
+        font-size: 8rem;
+        letter-spacing: -0.04em;
+    }
+}
+
+.h2, h2 {
+    font-size: 3.8rem;
+    line-height: 1.105;
+}
+.h2, .h3, h2, h3 {
+    letter-spacing: -0.01em;
+}
+@media (min-width: 1024px) {
+    .h2, h2 {
+        font-size: 6.4rem;
+        letter-spacing: -.02em;
+        line-height: 1.227;
+    }   
+}
+
+.h4, .h5, h4, h5 {
+    letter-spacing: -0.01em;
+}
+
+.h4, h4 {
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.h5, h5 {
+    font-size: 1.8rem;
+    line-height: 1.4444;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.fh .container {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 7.3rem;
+
+  &.nl {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 100%;    
+}
+@media (min-width: 768px) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+    .container {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+@media (min-width: 1240px) {
+    .container {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+@media (min-width: 1324px) {
+    .container {
+        max-width: 112rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.section__wrapper, .newsletter__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 85.71429%;
+}
+
+
+
+@media (min-width: 1024px) {
+    .section__wrapper {
+        max-width: 75%;
+    }
+}
+
+
+.header__title {
+    margin-bottom: 1.5rem;
+    line-height: 1.22;
+}
+@media (min-width: 1024px) {
+  .header__title {
+    line-height: 1.2;
+  }
+}
+
+
+.header__subtitle {
+    font-weight: 600;
+}
+@media (min-width: 1024px) {
+    .header__subtitle {
+        max-width: 50%;
+    }
+}
+
+.section {
+    position: relative;
+    overflow: hidden;
+}
+
+.section__title {
+    line-height: 1.2;
+}
+
+.section__subtitle {
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+@media (min-width: 768px) {
+    .section__subtitle {
+        padding-right: 3rem;
+    }
+}
+
+.header__illo {
+    position: absolute;
+    bottom: 0;
+    right: -4rem;
+    max-width: 60rem;
+    display: none;
+}
+@media (min-width: 1024px) {
+    .header__illo {
+        display: block;
+    }
+}
+@media (min-width: 1324px) {
+    .header__illo {
+        right: -12rem;
+    }
+}
+
+.section .header__illo {
+    right: -12rem;
+}
+@media (min-width: 1324px) {
+    .section .header__illo {
+        right: -24rem;
+    }
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  a {
+    text-decoration: underline;
+    &:visited {
+      text-decoration: underline;
+    }
+    &[href]:after {
+      content: " (" attr(href) ")";
+    }
+    &[href^="#"]:after {
+      content: "";
+    }
+  }
+  img {
+    max-width: 100% !important;
+  }
+} 
+
+
+.tfc__logo {
+  background-image: url(https://www.treesforcities.org/assets/img/logo@2x.png?v=3);
+  background-size: 209px;
+  width: 183px;
+  height: 112px;
+  background-position: 0 -160px;
+}
+
+.sauce__logo {
+  text-align: center;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 900;
+
+  & img {
+    margin: 30px 0 0 0;
+  }
+}
+
+
+// Newsletter
+.newsletter {
+  display: flex;
+}
+.newsletter-fields {
+    height: 48px;
+    border-radius: 6px 0 0 6px;
+    display: flex;
+
+    & input[type=email] {
+      padding: 8px 24px;
+      background: 0 0;
+      border: 1px solid #d5dbe0;
+      border-right: none;
+      border-radius: 8px 0 0 8px;
+      min-width: 296px;
+    }
+}
+
+.button {
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+  font-size: 15px;
+  padding: 8px 36px;
+  display: inline-block;
+  text-decoration: none!important;
+
+  &.blue {
+    color: #fff;
+    background: #cb1a1c;
+  }
+}
+
+
+.button.newsletter {
+    border: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
