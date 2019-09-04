@@ -381,9 +381,9 @@ h1 {
   }
 }
 
-.headline-intro, .headline-copy {
+.headline-intro, .headline-copy, .highlight-copy {
   font-family: 'source sans pro', sans-serif;
-    display: inline;
+  display: inline;
 }
 .headline-intro {
     font-weight: 700;
@@ -392,6 +392,10 @@ h1 {
 .headline-copy {
     font-weight: 600;
     color: #888;
+}
+.highlight-copy {
+    font-weight: 600;
+    color: #cb1a1c;
 }
 
 .fp-controlArrow.fp-prev {
