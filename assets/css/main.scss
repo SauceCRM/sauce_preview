@@ -1,5 +1,11 @@
 ---
 ---
+
+::selection {
+  color: #fff; 
+  background: #cb1a1c;
+}
+
 //Colours
 [data-bg=grey] {
     background-color: #1a1a1a;
@@ -361,6 +367,30 @@ h1 {
     border-top-left-radius: 0;
 }
 
+.typography-overview-hero-headline {
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -.015em;
+}
+@media only screen and (max-width: 1068px) {
+  .typography-overview-hero-headline {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -.015em;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .typography-overview-hero-headline {
+    font-size: 44px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.009em;
+  }
+}
+
+
 .typography-headline-copy {
   font-size: 40px;
   line-height: 1.1;
@@ -423,6 +453,11 @@ h1 {
 .caption-copy {
     font-weight: 500;
     color: #888;
+}
+
+.hero {
+  text-align: center;
+  max-width: 100%;
 }
 
 [class*="typography-eyebrow"] {
