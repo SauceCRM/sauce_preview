@@ -14,8 +14,8 @@
     color: #fff;
 }
 [data-bg=trees] {
-    background-color: #117167;
-    color: #fff;
+    background-color: #fff;
+    color: #117167!important;
 }
 [data-bg=img] {
     position: relative;
@@ -136,7 +136,7 @@ h1 {
   flex-direction: column;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: center;
   padding-bottom: 7.3rem;
 
   &.nl {
