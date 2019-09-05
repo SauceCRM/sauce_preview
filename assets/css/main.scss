@@ -425,6 +425,14 @@ h1 {
     font-weight: 400;
     letter-spacing: .012em;
 }
+@media only screen and (max-width: 1068px) {
+  .typography-caption-copy {
+      font-size: 17px;
+      line-height: 1.47059;
+      font-weight: 400;
+      letter-spacing: -.022em;
+  }
+}
 
 .typography-eyebrow-elevated {
     font-size: 28px;
