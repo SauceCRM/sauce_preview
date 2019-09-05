@@ -20,8 +20,11 @@
     color: #fff;
 }
 [data-bg=trees] {
-    background-color: #fff;
+    background-color: #f5f5f5;
+
+  & .caption-copy, & .caption-headline {
     color: #117167!important;
+  }
 }
 [data-bg=img] {
     position: relative;
@@ -65,6 +68,10 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #000;
+}
+
+img {
+  width: 100%;
 }
 
 .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {
@@ -459,6 +466,64 @@ h1 {
   text-align: center;
   max-width: 100%;
 }
+
+
+.section-fifty-fifty {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 735px) {
+  .section-fifty-fifty {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.section-fifty-fifty .tile {
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &:last-child {
+      margin-left: 20px;
+    }
+    &.with-figure {
+      position: relative;
+    }
+    &.with-caption {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-fifty-fifty .tile {
+    width: 100%;
+  }
+  .subsection-heat .tile.with-caption {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.with-background {
+  background-color: #f2f2f2;
+}
+
+
 
 [class*="typography-eyebrow"] {
     color: #333;
