@@ -382,6 +382,20 @@ h1 {
   }
 }
 
+.typography-caption-copy {
+    font-size: 19px;
+    line-height: 1.42115;
+    font-weight: 400;
+    letter-spacing: .012em;
+}
+
+.typography-eyebrow-elevated {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+
 .headline-intro, .headline-copy, .highlight-copy {
   font-family: 'source sans pro', sans-serif;
   display: inline;
@@ -397,6 +411,27 @@ h1 {
 .highlight-copy {
     font-weight: 600;
     color: #cb1a1c;
+}
+
+.caption-headline, .caption-copy {
+    display: inline;
+}
+.caption-headline {
+    font-weight: 700;
+    color: #111;
+}
+.caption-copy {
+    font-weight: 500;
+    color: #888;
+}
+
+[class*="typography-eyebrow"] {
+    color: #333;
+    display: block;
+    margin-bottom: .4em;
+}
+[class*="typography-eyebrow"]+* {
+    margin-top: 0;
 }
 
 
