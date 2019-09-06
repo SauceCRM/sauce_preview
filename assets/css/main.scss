@@ -519,14 +519,37 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 1068px) {
+  .section-fifty-fifty .tile {
+    
+    &:last-child {
+    margin-left: 13px;
+    }
+  }
+}
+
 @media only screen and (max-width: 735px) {
   .section-fifty-fifty .tile {
     width: 100%;
+
+    &:last-child {
+      margin-left: 0;
+      padding-top: 80px;
+    }
   }
   .subsection-heat .tile.with-caption {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .subsection-heat .tile.with-figure {
+    padding-top: 0;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
   }
 }
 
