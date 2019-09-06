@@ -21,6 +21,7 @@
 }
 [data-bg=trees] {
     background-color: #f5f5f5;
+    padding: 120px 0 60px;
 
   & .caption-copy, & .caption-headline {
     color: #117167!important;
@@ -73,6 +74,8 @@ body {
 img {
   width: 100%;
 }
+
+a { color: inherit; }
 
 .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {
     font-family: cera-web,sans-serif;
