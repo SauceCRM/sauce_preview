@@ -315,20 +315,23 @@ h1 {
 
 .sauce__logo {
   position: fixed;
-  top: 30px;
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   pointer-events: none;
   z-index: 900;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255,255,255,0.7);
+  text-align: center;
 
   & img {
     margin: 0;
-    width: 200px;
+    width: 170px;
   }
 }
 
