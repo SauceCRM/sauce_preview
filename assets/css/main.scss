@@ -349,43 +349,48 @@ h1 {
 
 // Newsletter
 .newsletter {
-  display: flex;
+
 }
 .newsletter-fields {
-    height: 48px;
-    border-radius: 6px 0 0 6px;
-    display: flex;
 
     & input[type=email] {
-      padding: 8px 24px;
-      background: 0 0;
-      border: 1px solid #d5dbe0;
-      border-right: none;
-      border-radius: 8px 0 0 8px;
-      min-width: 185px;
+      border: 1px solid #ABB0B2;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      color: #343434;
+      background-color: #fff;
+      box-sizing: border-box;
+      height: 32px;
+      padding: 0px 0.4em;
+      display: inline-block;
+      margin: 0;
+      max-width: 350px;
+      width: 100%;
+      vertical-align: top;
+      padding: 17px 16px;
+      height: 52px;
+      color: #7b7b7b;
     }
 }
 
 .button {
-  border-radius: 6px;
-  cursor: pointer;
-  background: #fff;
-  font-size: 15px;
-  padding: 8px 36px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #cb1a1c;
+  box-sizing: border-box;
+  height: 52px;
+  line-height: 32px;
+  padding: 0 18px;
+  margin: 10px auto;
   display: inline-block;
-  text-decoration: none!important;
-
-  &.red {
-    color: #fff;
-    background: #cb1a1c;
-  }
-}
-
-
-.button.newsletter {
-    border: none;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
+  transition: all 0.23s ease-in-out 0s;
+  max-width: 350px;
+  width: 100%;
 }
 
 .typography-overview-hero-headline {
