@@ -316,6 +316,13 @@ h1 {
   background-position: 0 -180px;
   margin: 0 auto;
 }
+@media only screen and (max-width: 1068px) {
+  .tfc__logo {
+    width: 250px;
+    height: 84px;
+    background-position: 0 0;
+  }
+}
 
 .sauce__logo {
   position: fixed;
