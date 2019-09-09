@@ -447,20 +447,20 @@ h1 {
     font-weight: 600;
     letter-spacing: .007em;
 }
-@media only screen and (max-width: 735px) {
-  .typography-eyebrow-elevated {
-    font-size: 21px;
-    line-height: 1.19048;
-    font-weight: 600;
-    letter-spacing: .011em;
-  }
-}
 @media only screen and (max-width: 1068px) {
   .typography-eyebrow-elevated {
     font-size: 24px;
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .typography-eyebrow-elevated {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
   }
 }
 
