@@ -1,7 +1,7 @@
 title: SauceCRM
 email: hello@saucecrm.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Customer on-boarding sucks. We made it easy. Sauce is an intuitive, intelligent CRM that converts prospects fast than a new version of anything by Micorsoft needing to be patched!
+  Customer onboarding sucks. We made it easy. Sauce is an intuitive, intelligent CRM that converts prospects fast than a new version of anything by Micorsoft needing to be patched!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saucecrm
